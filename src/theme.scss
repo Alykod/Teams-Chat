@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+$purple: #32124B;
+$pink: #B65B6A;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$orange: #EC9A29;
+$cyan: #0D7274;
+$blue: #143642;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: #DAD2D8;
+$primary: $blue;
+$info: $pink;
+$seconday: $orange;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$sucess: $cyan;
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+@import './spacing.scss';
+@import "../node_modules/bulma/bulma.sass";

@@ -1,0 +1,14 @@
+import React from 'react'
+import { render } from 'react-dom'
+import App from './app'
+
+
+// Since we are using HtmlWebpackPlugin WITHOUT a template, we should create our own root node in the body element before rendering into it
+let root = document.createElement('div')
+
+// Append root div to body
+root.id = 'root'
+document.body.appendChild(root)
+
+// Render the app into the root div
+render(<App />, document.getElementById('root'))
